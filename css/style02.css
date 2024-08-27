@@ -1,0 +1,150 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav {
+    background: linear-gradient(lightblue, blue);
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.menu > li:last-child {
+    margin-left: auto;
+}
+
+ul.menu > li > a {
+    display: block;
+    padding: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+ul.menu > li > a:hover {
+    background-color: darkblue;
+}
+
+.product {
+    width: 20%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.product > div {
+    
+    background: linear-gradient(lightblue, blue);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    position: relative;
+    padding: 5px;
+   
+}
+
+.product img {
+    width: 100%;
+    transition: transform 1s;
+}
+
+.product img:hover {
+    transform: translateY(-8px);
+}
+
+.product .price {
+    background-color: rgba(204, 158, 7, 0.6);
+    color: darkblue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    border-radius: 10px 0;
+    font-weight: bold;
+}
+
+.details {
+    
+    width: 70%;
+    margin: 0 auto;
+}
+
+.details > div {
+    flex: 1;
+}
+
+.thumb > div {
+    flex: 1;
+}
+
+footer {
+    background: linear-gradient(blue, lightblue);
+    padding: 2.5rem;
+    color: white;
+    font-weight: bold;
+}
+
+.left img {
+    width: 100%;
+}
+
+.red {
+    color: red;
+}
+
+.info {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.info.gift { 
+    border-color: red;
+}
+
+.buttons > button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid gray;
+}
+
+.form {
+    width: 100%;
+    margin-top: 5px;
+    padding: 8px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+}
+a.close {
+    position: absolute;
+    top: 6px;
+    right: 12px;
+    color: darkblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+.add-form {
+    display: none;
+}
+.show{
+    display: block;
+}
+.insert{
+    text-decoration: none;
+}
+
+
+.btn {
+    margin-top: 5px;
+    background-color: darkblue;
+    color: white;
+    padding: 5px;
+    border: 1px solid blue;
+}
